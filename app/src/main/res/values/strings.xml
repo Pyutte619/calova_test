@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Calova Test</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="imgs">
+        <item>@drawable/computer</item>
+        <item>@drawable/mountain</item>
+        <item>@drawable/note</item>
+        <item>@drawable/paint4</item>
+        <item>@drawable/tire</item>
+        <item>@drawable/quill6</item>
+        <item>@drawable/soccer</item>
+        <item>@drawable/slr2</item>
+        <item>@drawable/hand</item>
+        <item>@drawable/microscope</item>
+        <item>@drawable/film</item>
+
+    </string-array>
+</resources>

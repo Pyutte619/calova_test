@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageViewDetail"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#00679c"
+        android:id="@+id/textViewDetailTitile"
+        android:layout_below="@+id/imageViewDetail"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textViewdetailDeskrip"
+        android:layout_below="@+id/textViewDetailTitile"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="#0098ff"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="pick this career"
+        android:textStyle="bold"
+        android:id="@+id/pickCareer"
+        android:background="#0098ff"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textViewdetailDeskrip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp" />
+
+</RelativeLayout>
